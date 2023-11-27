@@ -56,9 +56,11 @@
   flex-direction: column;
   gap: 0;
   padding: 2rem 1rem;
-  min-height: 100vh;
+  min-height: 84vh;
   width: 100%;
   padding: 0;
+  background-color: var(--background);
+  z-index: 1;
 }
 .header__tabs.show p {
   border: 1px solid var(--outline);

@@ -1,12 +1,13 @@
 @import './controls.css';
 :root {
   --accent-green: #9ece6a;
-  --accent-orange: #c69a66;
+  --accent-orange: #db573a;
   --accent-blue: #204ec2;
   --white: #fff;
   --text: #abb2bf;
   --outline: #404c74;
   --tab-highlight: #272d44;
+  --background: #1a1b26;
 }
 
 * {
