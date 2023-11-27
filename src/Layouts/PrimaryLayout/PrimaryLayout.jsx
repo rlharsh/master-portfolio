@@ -9,7 +9,9 @@ const PrimaryLayout = () => {
   return (
     <div className='layout-container'>
         <Header />
-        <Outlet />
+        <div className='content'>
+            <Outlet />
+        </div>
         <Footer />
     </div>
   )

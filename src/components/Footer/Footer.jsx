@@ -13,7 +13,7 @@ const Footer = () => {
             <i className="ri-linkedin-box-fill"></i>
         </div>
         <div className="github">
-                <p>@ronaldharsh</p>
+                <p>@rlharsh</p>
                 <i className="ri-github-fill"></i>
         </div>
     </footer>

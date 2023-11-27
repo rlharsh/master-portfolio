@@ -6,7 +6,7 @@ import 'highlight.js/styles/tokyo-night-dark.css';
 const CodeBlock = ({ language, value }) => {
   useEffect(() => {
     hljs.highlightAll();
-  }, []);
+  }, [value]);
 
   return (
     <pre>

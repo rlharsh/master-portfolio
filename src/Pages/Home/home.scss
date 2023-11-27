@@ -1,0 +1,55 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-self: flex;
+    color: var(--white);
+    position: relative;
+    height: 100%;
+    justify-content: space-around;
+
+    &__top {
+        position: relative;
+        padding-left: 1rem;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+    }
+
+    overflow: hidden;
+}
+
+.green-blob {
+    position: absolute;
+    top: 0rem;
+    left: -4rem;
+    width: 10.97813rem;
+    height: 10.3155rem;
+    transform: rotate(-94.305deg);
+    flex-shrink: 0;
+    background-color: #43D9AD;
+
+    opacity: 0.4;
+    filter: blur(87px);
+}
+
+.blue-blob {
+    position: absolute;
+    right: 0;
+    top: 12rem;
+    width: 15.97813rem;
+    height: 17.3155rem;
+    transform: rotate(13.508deg);
+    flex-shrink: 0;
+    background-color: #4D5BCE;
+
+    opacity: 0.4;
+    filter: blur(87px);
+
+    opacity: 0.4;
+    filter: blur(87px);
+}

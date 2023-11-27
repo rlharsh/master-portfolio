@@ -7,3 +7,22 @@
 .text {
     color: var(--text);
 }
+
+.green {
+    color: var(--accent-green);
+}
+
+.main-container {
+    width: 100%;
+    min-height: calc(100vh - 8.4rem);
+}
+
+.hero {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}

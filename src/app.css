@@ -1,5 +1,6 @@
 @import './controls.css';
 :root {
+  --accent-green: #9ece6a;
   --accent-orange: #c69a66;
   --accent-blue: #204ec2;
   --white: #fff;
@@ -13,7 +14,7 @@
 }
 
 body {
-  background-color: #1e2336;
+  background-color: #1a1b26;
   font-family: "Fira Code", monospace;
   color: var(--text);
   font-size: 1rem;
@@ -23,6 +24,13 @@ body {
   font-family: "Fira Code", monospace;
   font-size: 1rem;
   padding: 0;
+}
+
+pre {
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1 {
