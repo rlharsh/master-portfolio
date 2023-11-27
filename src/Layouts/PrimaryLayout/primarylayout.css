@@ -1,0 +1,11 @@
+.layout-container {
+  margin: 1rem;
+  padding: 0;
+  min-height: calc(100vh - 2rem);
+  border: 1px solid var(--outline);
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,56 @@
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+@media (max-width: 768px) {
+  .github p {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .github i {
+    border-left: 1px solid var(--outline);
+  }
+}
+@media (max-width: 768px) {
+  .github {
+    padding: none;
+    margin: none;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--outline);
+  gap: 0;
+}
+.footer__social {
+  border-right: 1px solid var(--outline);
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .footer__social {
+    flex: 1 0;
+  }
+}
+.footer__social__container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.footer i {
+  font-size: 1rem;
+  padding: 1rem;
+  border-right: 1px solid var(--outline);
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.footer i:hover {
+  background-color: var(--tab-highlight);
+}

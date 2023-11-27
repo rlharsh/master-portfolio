@@ -1,0 +1,37 @@
+:root {
+  --accent-blue: #204ec2;
+  --white: #fff;
+}
+
+body {
+  background-color: #1a1b26;
+  font-family: "Fira Code", monospace;
+  color: var(--white);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.hljs {
+  font-family: "Fira Code", monospace;
+  font-size: 1rem;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.accent-blue {
+  color: var(--accent-blue);
+}
