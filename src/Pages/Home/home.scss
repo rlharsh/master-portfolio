@@ -1,3 +1,5 @@
+@import '../../../node_modules/gerillass/scss/gerillass';
+
 .introduction {
     display: flex;
     flex-direction: column;
@@ -6,6 +8,11 @@
     position: relative;
     height: 100%;
     justify-content: space-around;
+
+    @include breakpoint(min, medium) {
+        justify-content: space-between;
+        padding: 12rem;
+    }
 
     &__top {
         position: relative;
@@ -35,6 +42,14 @@
 
     opacity: 0.4;
     filter: blur(87px);
+
+    @include breakpoint(min, medium) {
+        top: 0rem;
+        left: 4rem;
+
+        width: 16rem;
+        height: 16rem;
+    }
 }
 
 .blue-blob {
@@ -43,13 +58,14 @@
     top: 12rem;
     width: 15.97813rem;
     height: 17.3155rem;
-    transform: rotate(13.508deg);
+    transform: rotate(32.508deg);
     flex-shrink: 0;
     background-color: #4D5BCE;
-
     opacity: 0.4;
     filter: blur(87px);
 
-    opacity: 0.4;
-    filter: blur(87px);
+    @include breakpoint(min, medium) {
+        bottom: 2rem;
+        right: 8rem;
+    }
 }

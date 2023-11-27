@@ -8,6 +8,12 @@
   justify-content: space-around;
   overflow: hidden;
 }
+@media (min-width: 768px) {
+  .introduction {
+    justify-content: space-between;
+    padding: 12rem;
+  }
+}
 .introduction__top {
   position: relative;
   padding-left: 1rem;
@@ -31,6 +37,14 @@
   opacity: 0.4;
   filter: blur(87px);
 }
+@media (min-width: 768px) {
+  .green-blob {
+    top: 0rem;
+    left: 4rem;
+    width: 16rem;
+    height: 16rem;
+  }
+}
 
 .blue-blob {
   position: absolute;
@@ -38,11 +52,15 @@
   top: 12rem;
   width: 15.97813rem;
   height: 17.3155rem;
-  transform: rotate(13.508deg);
+  transform: rotate(32.508deg);
   flex-shrink: 0;
   background-color: #4D5BCE;
   opacity: 0.4;
   filter: blur(87px);
-  opacity: 0.4;
-  filter: blur(87px);
+}
+@media (min-width: 768px) {
+  .blue-blob {
+    bottom: 2rem;
+    right: 8rem;
+  }
 }
