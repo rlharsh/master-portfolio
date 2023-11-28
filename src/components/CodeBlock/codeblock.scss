@@ -1,0 +1,10 @@
+.code-line {
+    display: block;
+    white-space: pre-wrap;
+
+    &.long-line:before {
+      content: '* ';
+      color: #ccc;
+      display: inline;
+    }
+  }

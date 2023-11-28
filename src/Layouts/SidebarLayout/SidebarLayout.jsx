@@ -9,6 +9,7 @@ const SidebarLayout = () => {
     const aboutData = [
         {
             title: "personal-info",
+            color: "green",
             children: [{
                 title: "bio",
                 path: "/bio"
@@ -17,6 +18,7 @@ const SidebarLayout = () => {
                 path: "/interest"
             }, {
                 title: "education",
+                color: "orange",
                 children: [{
                     title: "high-school",
                     path: "/high-school"

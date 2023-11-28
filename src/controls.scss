@@ -12,11 +12,20 @@
     color: var(--accent-green);
 }
 
+.blue {
+    color: var(--accent-blue);
+}
+
+.orange {
+    color: var(--accent-orange);
+}
+
 .main-container {
     width: 100%;
     min-height: calc(100vh - 8.4rem);
     background-color: transparent;
 }
+
 
 .hero {
     flex-grow: 1;

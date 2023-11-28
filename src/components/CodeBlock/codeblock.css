@@ -1,0 +1,9 @@
+.code-line {
+  display: block;
+  white-space: pre-wrap;
+}
+.code-line.long-line:before {
+  content: "* ";
+  color: #ccc;
+  display: inline;
+}

@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import hljs from 'highlight.js';
 
 import 'highlight.js/styles/tokyo-night-dark.css';
+import './codeblock.css';
 
-const CodeBlock = ({ language, value }) => {
+const CodeBlock = ({ language, value, type }) => {
   useEffect(() => {
     hljs.highlightAll();
   }, [value]);
@@ -16,5 +17,6 @@ const CodeBlock = ({ language, value }) => {
     </pre>
   );
 };
+
 
 export default CodeBlock;

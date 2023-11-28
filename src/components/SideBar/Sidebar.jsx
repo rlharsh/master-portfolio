@@ -23,7 +23,7 @@ const Sidebar = ( { children, data }) => {
           return (
             <li key={currentIndex}>
               <span onClick={() => isParent && toggleItem(currentIndex)}>
-                {isParent ? <i className="ri-folder-fill"></i> : <i className="ri-file-text-fill"></i>}
+                {isParent ? <i className={`ri-folder-fill ${item.color}`}></i> : <i className="ri-file-text-fill"></i>}
                 {' '}
                 {item.path ? (
                   <Link to={`${basePath}${item.path}`}>{item.title}</Link>
