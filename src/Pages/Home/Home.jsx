@@ -10,7 +10,7 @@ const Home = () => {
             <div className='introduction__top'>
                 <p>Hello there. I am</p>
                 <h1>Ronald Harsh</h1>
-                <p><span className="green">>Front-end developer</span></p>
+                <p><span className="green">&gt; Front-end developer</span></p>
             </div>
 
            <CodeBlock

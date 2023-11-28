@@ -1,0 +1,22 @@
+.sidebar-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid var(--outline);
+  padding: 1rem;
+}
+
+.sidenav {
+  padding: 1rem;
+}
+.sidenav li {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+.sidenav li a {
+  text-decoration: none;
+  color: var(--text);
+}
