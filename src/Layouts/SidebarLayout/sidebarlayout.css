@@ -1,22 +1,46 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: 100%;
-  padding: 0;
-  margin: 0;
   position: relative;
   gap: 2rem;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    flex-direction: row;
+    gap: 0;
+  }
 }
 .sidebar__sidebar {
   position: relative;
 }
+@media (min-width: 768px) {
+  .sidebar__sidebar {
+    flex-grow: 0;
+    padding: 0;
+    margin: 0;
+    width: 20rem;
+    border-right: 1px solid var(--outline);
+  }
+}
 .sidebar__content {
-  overflow-y: auto;
-  max-height: 100vh;
+  width: 100%;
   color: var(--text);
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .sidebar__content {
+    width: 50%;
+  }
 }
 .sidebar__code {
   padding: 1rem;
   color: var(--text);
+  width: 100%;
+  border-left: 1px solid var(--outline);
+}
+@media (min-width: 768px) {
+  .sidebar__code {
+    width: 50%;
+  }
 }

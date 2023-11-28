@@ -10,9 +10,6 @@ const About = () => {
       <p>md</p>
       <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
       <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
-      <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
-      <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
-      <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
     </section>
   )
 }

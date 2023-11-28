@@ -2,6 +2,7 @@
     margin: 1rem;
     padding: 0;
     min-height: calc(100vh - 2rem);
+    max-height: calc(100vh - 2rem);
     border: 1px solid var(--outline);
     overflow: hidden;
     border-radius: 8px;

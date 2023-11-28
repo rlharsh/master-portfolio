@@ -42,7 +42,7 @@ const SidebarLayout = () => {
                     <Outlet />
                 </div>
                 <div className="sidebar__code">
-
+                    I am some code!
                 </div>
             </div>
         </div>

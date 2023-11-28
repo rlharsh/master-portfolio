@@ -1,8 +1,14 @@
+@import '../../../node_modules/gerillass/scss/gerillass';
+
 .sidebar-container {
     width: 100%;
     padding: 0;
     margin: 0;
     padding: 1rem;
+
+    @include breakpoint(min, medium) {
+        width: 20rem;
+    }
 }
 
 .sidenav {

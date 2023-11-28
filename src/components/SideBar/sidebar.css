@@ -4,6 +4,11 @@
   margin: 0;
   padding: 1rem;
 }
+@media (min-width: 768px) {
+  .sidebar-container {
+    width: 20rem;
+  }
+}
 
 .sidenav {
   padding: 1rem;
