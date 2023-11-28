@@ -11,6 +11,8 @@ const About = () => {
       <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
       <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
       <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
+      <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
+      <CodeBlock type="long-text" language="markdown" value={`${aboutMe}`} />
     </section>
   )
 }
