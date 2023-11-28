@@ -38,7 +38,7 @@ const SidebarLayout = () => {
                         _about-me
                     </Sidebar>
                 </div>
-                <div className="sidbar__content">
+                <div className="sidebar__content">
                     <Outlet />
                 </div>
                 <div className="sidebar__code">

@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
     position: relative;
@@ -11,11 +12,11 @@
 
     &__sidebar {
         position: relative;
-        height: 100%;
     }
 
     &__content {
-        padding: 1rem;
+        overflow-y: auto; // Makes content area scrollable
+        max-height: 100vh; // Ensures content area doesn't exceed viewport height
         color: var(--text);
     }
 

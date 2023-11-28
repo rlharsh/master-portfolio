@@ -1,5 +1,7 @@
 .about {
     padding: 1rem;
+    overflow-y: auto;
+    max-height: 100%;
 
     p {
         color: var(--accent-orange);
