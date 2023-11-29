@@ -28,12 +28,14 @@
 
     &__name {
         padding: 1rem;
-        width: 20rem;
+        width: 19.92rem;
         height: 100%;
         color: var(--accent-orange);
+        font-weight: 700;
 
         @include breakpoint(min, medium) {
-            border-right: 1px solid var(--outline);
+            padding: none;
+            margin: none;
         }
     }
 }

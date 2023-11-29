@@ -1,40 +1,29 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 
 import './sidebarlayout.css';
 import Sidebar from '../../components/SideBar/Sidebar';
+import AboutNav from '../../components/AboutNav/AboutNav';
+
+import { useData } from '../../Providers/DataContext';
 
 const SidebarLayout = () => {
 
-    const aboutData = [
-        {
-            title: "personal-info",
-            color: "green",
-            children: [{
-                title: "bio",
-                path: "/bio"
-            }, {
-                title: "interest",
-                path: "/interest"
-            }, {
-                title: "education",
-                color: "orange",
-                children: [{
-                    title: "high-school",
-                    path: "/high-school"
-                }, {
-                    title: "university",
-                    path: "/university"
-                }]
-            },]
-        }
-    ];
+    const location = useLocation();
+    const { currentMenuData, updateMenuData } = useData();
+
+    useEffect(() => {
+        updateMenuData(location.pathname);
+    }, [location.pathname]);
 
     return (
         <div className='main-container'>
             <div className="sidebar">
+                <div className="sidebar__data">
+                    <AboutNav />
+                </div>
                 <div className="sidebar__sidebar">
-                    <Sidebar data={aboutData}>
+                    <Sidebar data={ currentMenuData }>
                         _about-me
                     </Sidebar>
                 </div>

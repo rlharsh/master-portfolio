@@ -16,6 +16,10 @@
   color: var(--accent-blue);
 }
 
+.purple {
+  color: var(--accent-purple);
+}
+
 .orange {
   color: var(--accent-orange);
 }

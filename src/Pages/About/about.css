@@ -2,6 +2,20 @@
   padding: 1rem;
   overflow-y: auto;
   max-height: 100%;
+  /* Styling the scrollbar track */
+  /* Styling the scrollbar handle */
+  /* Optional: Change scrollbar thumb on hover */
+}
+.about::-webkit-scrollbar {
+  width: 16px; /* Adjust width of the scrollbar */
+  border-left: 1px solid var(--outline);
+}
+.about::-webkit-scrollbar-thumb {
+  background: var(--scrollbar); /* Color of the scrollbar thumb */
+  border-radius: 0px; /* Optional: to make the thumb rounded */
+}
+.about::-webkit-scrollbar-thumb:hover {
+  background: #1d1e2c; /* Darker shade on hover */
 }
 .about p {
   color: var(--accent-orange);

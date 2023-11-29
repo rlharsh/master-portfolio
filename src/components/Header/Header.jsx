@@ -20,9 +20,9 @@ const Header = () => {
 
             <div className={`header__tabs ${menuShowing ? 'show' : ''}`}>
                 <HeaderTab path='/'>_home</HeaderTab>
-                <HeaderTab path='/about'>_about</HeaderTab>
-                <HeaderTab path='/projects'>_projects</HeaderTab>
-                <HeaderTab path='/playground'>_playground</HeaderTab>
+                <HeaderTab path='/about/professional' root='/about'>_about</HeaderTab>
+                <HeaderTab path='/projects' root='/projects'>_projects</HeaderTab>
+                <HeaderTab path='/playground' root='/playground'>_playground</HeaderTab>
             </div>
 
             <div className="header__menu">

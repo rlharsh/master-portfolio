@@ -5,4 +5,33 @@ My current endeavor is not just about coding; it's about building software that 
 
 When I'm not immersed in code, I'm likely to be found relishing retro games with my wife, sharing moments with my two cats, or indulging in continuous learning. As I look forward to joining the workforce, I'm excited to explore and contribute to innovative web solutions that make a difference.`;
 
-export { aboutMe };
+const personal =
+`Personal Information!`
+
+const hobbies =
+`Hobbies Information!`
+
+const professionalSummary =
+`Professional Summary`
+
+const professionalSkills =
+`Professional Skills`
+
+const professionalExperience =
+`Professinoal Experience`
+
+const professionalPhilosophy =
+`Professional Philosophy`;
+
+const professionalGoals =
+`Professional Goals`;
+
+const professionalInterest =
+`Professional Interest`;
+
+const professionalAchievements =
+`Professional Achievements`;
+
+export { aboutMe, personal, hobbies, professionalSummary, professionalSkills,
+        professionalExperience, professionalPhilosophy, professionalGoals,
+    professionalInterest, professionalAchievements };

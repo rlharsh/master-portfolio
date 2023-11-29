@@ -11,6 +11,17 @@
     gap: 0;
   }
 }
+.sidebar__data {
+  width: 100%;
+  border-bottom: 1px solid var(--outline);
+}
+@media (min-width: 768px) {
+  .sidebar__data {
+    width: 4rem;
+    border-bottom: none;
+    border-right: 1px solid var(--outline);
+  }
+}
 .sidebar__sidebar {
   position: relative;
 }
@@ -19,7 +30,7 @@
     flex-grow: 0;
     padding: 0;
     margin: 0;
-    width: 20rem;
+    width: 16.45rem;
     border-right: 1px solid var(--outline);
   }
 }

@@ -3,14 +3,16 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import './headertab.css';
 
-const HeaderTab = ({ children, path }) => {
+const HeaderTab = ({ children, path, root = '/n' }) => {
 
     const [ selected, setSelected ] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
 
+    console.log(root);
+
     useEffect(() => {
-        if (path === location.pathname) {
+        if (location.pathname.startsWith(root)) {
             setSelected(true);
         } else {
             setSelected(false);

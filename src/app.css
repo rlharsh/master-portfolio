@@ -3,11 +3,14 @@
   --accent-green: #9ece6a;
   --accent-orange: #db573a;
   --accent-blue: #204ec2;
+  --accent-purple: #838cf7;
   --white: #fff;
   --text: #abb2bf;
-  --outline: #404c74;
+  --outline: #22293f;
   --tab-highlight: #272d44;
   --background: #1a1b26;
+  --scrollbar: #202130;
+  --scrollbar-highlight: #31334b;
 }
 
 * {
@@ -46,4 +49,10 @@ h2 {
 
 .accent-blue {
   color: var(--accent-blue);
+}
+
+/* Firefox specific styling (limited support) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-orange) transparent; /* thumb and track color */
 }
