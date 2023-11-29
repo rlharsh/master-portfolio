@@ -3,7 +3,7 @@ import CodeBlock from '../../components/CodeBlock/CodeBlock';
 import './about.css';
 import { useLocation } from 'react-router-dom';
 
-import { aboutMe, personal, hobbies, professionalSummary, professionalSkills, professionalExperience, professionalPhilosophy, professionalGoals, professionalInterest, professionalAchievements } from '../../assets/data/data';
+import { aboutMe, personal, hobbies, professionalSummary, professionalSkills, professionalExperience, professionalPhilosophy, professionalGoals, professionalInterest, professionalAchievements, personalHobbies, personalGoals, personalEducation, personalVolunteering, personalProjects, personalTravel, personalWellness, hobbiesGaming, hobbiesNature, hobbiesMusic } from '../../assets/data/data';
 
 const About = () => {
   const location = useLocation();
@@ -20,6 +20,16 @@ const About = () => {
     '/about/personal': personal,
     '/about/hobbies': hobbies,
     '/about/professional': aboutMe,
+    '/about/personal/hobbies': personalHobbies,
+    '/about/personal/goals': personalGoals,
+    '/about/personal/education': personalEducation,
+    '/about/personal/volunteering': personalVolunteering,
+    '/about/personal/projects': personalProjects,
+    '/about/personal/travel': personalTravel,
+    '/about/personal/wellness': personalWellness,
+    '/about/hobbies/gaming': hobbiesGaming,
+    '/about/hobbies/nature': hobbiesNature,
+    '/about/hobbies/music': hobbiesMusic
   };
 
 

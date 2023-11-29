@@ -8,11 +8,11 @@
     --accent-purple: #838cf7;
     --white: #fff;
     --text: #abb2bf;
-    --outline: #22293f;
+    --outline: #212431;
     --tab-highlight: #272d44;
-    --background: #1a1b26;
-    --scrollbar: #202130;
-    --scrollbar-highlight: #31334b;
+    --background: #16161e;
+    --scrollbar: #212331;
+    --scrollbar-highlight: #202130;
 }
 
 * {
@@ -30,6 +30,12 @@ body {
     font-family: 'Fira Code', monospace;
     font-size: 1rem;
     padding: 0;
+}
+
+.code-block {
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--outline);
 }
 
 pre {
@@ -53,7 +59,6 @@ h2 {
     color: var(--accent-blue);
 }
 
-/* Firefox specific styling (limited support) */
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--accent-orange) transparent; /* thumb and track color */

@@ -8,6 +8,8 @@
     @include breakpoint(min, medium) {
         width: 20rem;
     }
+
+    width: 82%;
 }
 
 .sidenav {
@@ -23,6 +25,10 @@
             text-decoration: none;
             color: var(--text);
         }
+    }
+
+    @include breakpoint(min, medium) {
+        width: 82%;
     }
 
     border-bottom: 1px solid var(--outline);

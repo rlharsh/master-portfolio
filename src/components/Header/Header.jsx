@@ -22,7 +22,7 @@ const Header = () => {
                 <HeaderTab path='/'>_home</HeaderTab>
                 <HeaderTab path='/about/professional' root='/about'>_about</HeaderTab>
                 <HeaderTab path='/projects' root='/projects'>_projects</HeaderTab>
-                <HeaderTab path='/playground' root='/playground'>_playground</HeaderTab>
+                <HeaderTab path='/blog' root='/blog'>_blog</HeaderTab>
             </div>
 
             <div className="header__menu">

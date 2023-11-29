@@ -9,7 +9,6 @@ export const DataProvider = ({ children }) => {
     const [data, setData] = useState({}); // Initialize your data state here
     const [currentMenuData, setCurrentMenuData] = useState(null); // Define the state for currentMenuData
 
-    // You can add functions to modify `data` here if needed
     const aboutDataProfessional = [
         {
             title: "professional-info",
@@ -55,7 +54,7 @@ export const DataProvider = ({ children }) => {
                     path: "hobbies"
                 }, {
                     title: "_personal_goals.md",
-                    path: "personal_goals"
+                    path: "goals"
                 }, {
                     title: "_education.md",
                     path: "education"
@@ -64,7 +63,7 @@ export const DataProvider = ({ children }) => {
                     path: "volunteering"
                 }, {
                     title: "_projects.md",
-                    path: "personal_projects"
+                    path: "projects"
                 }, {
                     title: "_travel.md",
                     path: "travel"

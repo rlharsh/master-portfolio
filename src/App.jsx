@@ -27,6 +27,19 @@ function App() {
           <Route path='/about/professional/goals' element={<About />} />
           <Route path='/about/professional/interests' element={<About />} />
           <Route path='/about/professional/achievements' element={<About />} />
+
+          <Route path='/about/personal/hobbies' element={<About />} />
+          <Route path='/about/personal/goals' element={<About />} />
+          <Route path='/about/personal/education' element={<About />} />
+          <Route path='/about/personal/volunteering' element={<About />} />
+          <Route path='/about/personal/projects' element={<About />} />
+          <Route path='/about/personal/travel' element={<About />} />
+          <Route path='/about/personal/wellness' element={<About />} />
+
+          <Route path='/about/hobbies/gaming' element={<About />} />
+          <Route path='/about/hobbies/nature' element={<About />} />
+          <Route path='/about/hobbies/music' element={<About />} />
+
           <Route path='/about/personal' element={<About />} />
           <Route path='/about/hobbies' element={<About />} />
         </Route>

@@ -9,8 +9,6 @@ const HeaderTab = ({ children, path, root = '/n' }) => {
     const location = useLocation();
     const navigate = useNavigate();
 
-    console.log(root);
-
     useEffect(() => {
         if (location.pathname.startsWith(root)) {
             setSelected(true);
